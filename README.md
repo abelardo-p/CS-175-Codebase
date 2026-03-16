@@ -2,6 +2,7 @@ External Libraries
  * Transformers (https://huggingface.co/docs/transformers/en/index)
  * Pandas (https://pandas.pydata.org/)
  * Sqlite3 (https://sqlite.org/)
+ * sqlglot (https://sqlglot.com/sqlglot.html)
 
 
 Publicly Available Code
