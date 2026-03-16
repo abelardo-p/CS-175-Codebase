@@ -1,0 +1,807 @@
+{
+    "browser_web": {
+        "num_tables": 3,
+        "num_columns": 11,
+        "num_foreign_keys": 2
+    },
+    "musical": {
+        "num_tables": 2,
+        "num_columns": 13,
+        "num_foreign_keys": 1
+    },
+    "farm": {
+        "num_tables": 4,
+        "num_columns": 24,
+        "num_foreign_keys": 3
+    },
+    "voter_1": {
+        "num_tables": 3,
+        "num_columns": 9,
+        "num_foreign_keys": 2
+    },
+    "game_injury": {
+        "num_tables": 3,
+        "num_columns": 20,
+        "num_foreign_keys": 2
+    },
+    "hospital_1": {
+        "num_tables": 15,
+        "num_columns": 68,
+        "num_foreign_keys": 25
+    },
+    "manufacturer": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "station_weather": {
+        "num_tables": 4,
+        "num_columns": 19,
+        "num_foreign_keys": 3
+    },
+    "perpetrator": {
+        "num_tables": 2,
+        "num_columns": 13,
+        "num_foreign_keys": 1
+    },
+    "storm_record": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "flight_1": {
+        "num_tables": 4,
+        "num_columns": 16,
+        "num_foreign_keys": 3
+    },
+    "manufactory_1": {
+        "num_tables": 2,
+        "num_columns": 9,
+        "num_foreign_keys": 1
+    },
+    "cre_Theme_park": {
+        "num_tables": 16,
+        "num_columns": 52,
+        "num_foreign_keys": 14
+    },
+    "museum_visit": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "race_track": {
+        "num_tables": 2,
+        "num_columns": 10,
+        "num_foreign_keys": 1
+    },
+    "soccer_2": {
+        "num_tables": 3,
+        "num_columns": 11,
+        "num_foreign_keys": 2
+    },
+    "bike_1": {
+        "num_tables": 4,
+        "num_columns": 46,
+        "num_foreign_keys": 1
+    },
+    "pilot_record": {
+        "num_tables": 3,
+        "num_columns": 19,
+        "num_foreign_keys": 2
+    },
+    "customers_and_invoices": {
+        "num_tables": 9,
+        "num_columns": 56,
+        "num_foreign_keys": 11
+    },
+    "department_management": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 2
+    },
+    "news_report": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 2
+    },
+    "tvshow": {
+        "num_tables": 3,
+        "num_columns": 25,
+        "num_foreign_keys": 2
+    },
+    "store_product": {
+        "num_tables": 5,
+        "num_columns": 22,
+        "num_foreign_keys": 4
+    },
+    "party_host": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 2
+    },
+    "ship_1": {
+        "num_tables": 2,
+        "num_columns": 12,
+        "num_foreign_keys": 1
+    },
+    "solvency_ii": {
+        "num_tables": 12,
+        "num_columns": 32,
+        "num_foreign_keys": 10
+    },
+    "products_gen_characteristics": {
+        "num_tables": 6,
+        "num_columns": 23,
+        "num_foreign_keys": 5
+    },
+    "dog_kennels": {
+        "num_tables": 8,
+        "num_columns": 49,
+        "num_foreign_keys": 7
+    },
+    "local_govt_and_lot": {
+        "num_tables": 11,
+        "num_columns": 48,
+        "num_foreign_keys": 15
+    },
+    "culture_company": {
+        "num_tables": 3,
+        "num_columns": 19,
+        "num_foreign_keys": 2
+    },
+    "aircraft": {
+        "num_tables": 5,
+        "num_columns": 28,
+        "num_foreign_keys": 4
+    },
+    "wta_1": {
+        "num_tables": 4,
+        "num_columns": 93,
+        "num_foreign_keys": 5
+    },
+    "cinema": {
+        "num_tables": 3,
+        "num_columns": 17,
+        "num_foreign_keys": 2
+    },
+    "formula_1": {
+        "num_tables": 13,
+        "num_columns": 94,
+        "num_foreign_keys": 17
+    },
+    "wine_1": {
+        "num_tables": 3,
+        "num_columns": 20,
+        "num_foreign_keys": 2
+    },
+    "gas_company": {
+        "num_tables": 3,
+        "num_columns": 18,
+        "num_foreign_keys": 2
+    },
+    "network_2": {
+        "num_tables": 2,
+        "num_columns": 8,
+        "num_foreign_keys": 2
+    },
+    "match_season": {
+        "num_tables": 4,
+        "num_columns": 21,
+        "num_foreign_keys": 3
+    },
+    "phone_1": {
+        "num_tables": 3,
+        "num_columns": 21,
+        "num_foreign_keys": 2
+    },
+    "pets_1": {
+        "num_tables": 3,
+        "num_columns": 14,
+        "num_foreign_keys": 2
+    },
+    "tracking_grants_for_research": {
+        "num_tables": 12,
+        "num_columns": 42,
+        "num_foreign_keys": 11
+    },
+    "party_people": {
+        "num_tables": 4,
+        "num_columns": 20,
+        "num_foreign_keys": 4
+    },
+    "hr_1": {
+        "num_tables": 7,
+        "num_columns": 35,
+        "num_foreign_keys": 7
+    },
+    "scientist_1": {
+        "num_tables": 3,
+        "num_columns": 7,
+        "num_foreign_keys": 2
+    },
+    "college_3": {
+        "num_tables": 8,
+        "num_columns": 39,
+        "num_foreign_keys": 9
+    },
+    "cre_Doc_Template_Mgt": {
+        "num_tables": 4,
+        "num_columns": 17,
+        "num_foreign_keys": 3
+    },
+    "program_share": {
+        "num_tables": 4,
+        "num_columns": 17,
+        "num_foreign_keys": 4
+    },
+    "college_2": {
+        "num_tables": 11,
+        "num_columns": 46,
+        "num_foreign_keys": 20
+    },
+    "course_teach": {
+        "num_tables": 3,
+        "num_columns": 10,
+        "num_foreign_keys": 2
+    },
+    "candidate_poll": {
+        "num_tables": 2,
+        "num_columns": 14,
+        "num_foreign_keys": 1
+    },
+    "cre_Doc_Control_Systems": {
+        "num_tables": 11,
+        "num_columns": 35,
+        "num_foreign_keys": 13
+    },
+    "wedding": {
+        "num_tables": 3,
+        "num_columns": 14,
+        "num_foreign_keys": 3
+    },
+    "document_management": {
+        "num_tables": 9,
+        "num_columns": 31,
+        "num_foreign_keys": 7
+    },
+    "loan_1": {
+        "num_tables": 3,
+        "num_columns": 18,
+        "num_foreign_keys": 3
+    },
+    "railway": {
+        "num_tables": 4,
+        "num_columns": 22,
+        "num_foreign_keys": 3
+    },
+    "geo": {
+        "num_tables": 7,
+        "num_columns": 29,
+        "num_foreign_keys": 6
+    },
+    "movie_1": {
+        "num_tables": 3,
+        "num_columns": 10,
+        "num_foreign_keys": 2
+    },
+    "flight_company": {
+        "num_tables": 3,
+        "num_columns": 20,
+        "num_foreign_keys": 2
+    },
+    "csu_1": {
+        "num_tables": 6,
+        "num_columns": 23,
+        "num_foreign_keys": 5
+    },
+    "company_employee": {
+        "num_tables": 3,
+        "num_columns": 16,
+        "num_foreign_keys": 2
+    },
+    "orchestra": {
+        "num_tables": 4,
+        "num_columns": 23,
+        "num_foreign_keys": 3
+    },
+    "car_1": {
+        "num_tables": 6,
+        "num_columns": 23,
+        "num_foreign_keys": 5
+    },
+    "customers_card_transactions": {
+        "num_tables": 4,
+        "num_columns": 27,
+        "num_foreign_keys": 2
+    },
+    "machine_repair": {
+        "num_tables": 4,
+        "num_columns": 19,
+        "num_foreign_keys": 3
+    },
+    "shop_membership": {
+        "num_tables": 4,
+        "num_columns": 18,
+        "num_foreign_keys": 4
+    },
+    "wrestler": {
+        "num_tables": 2,
+        "num_columns": 12,
+        "num_foreign_keys": 1
+    },
+    "performance_attendance": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "debate": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 3
+    },
+    "icfp_1": {
+        "num_tables": 4,
+        "num_columns": 12,
+        "num_foreign_keys": 3
+    },
+    "e_learning": {
+        "num_tables": 6,
+        "num_columns": 32,
+        "num_foreign_keys": 5
+    },
+    "customer_deliveries": {
+        "num_tables": 13,
+        "num_columns": 51,
+        "num_foreign_keys": 15
+    },
+    "academic": {
+        "num_tables": 15,
+        "num_columns": 42,
+        "num_foreign_keys": 18
+    },
+    "cre_Doc_Tracking_DB": {
+        "num_tables": 8,
+        "num_columns": 33,
+        "num_foreign_keys": 12
+    },
+    "entertainment_awards": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "department_store": {
+        "num_tables": 14,
+        "num_columns": 56,
+        "num_foreign_keys": 13
+    },
+    "customers_and_products_contacts": {
+        "num_tables": 7,
+        "num_columns": 35,
+        "num_foreign_keys": 5
+    },
+    "voter_2": {
+        "num_tables": 2,
+        "num_columns": 17,
+        "num_foreign_keys": 7
+    },
+    "driving_school": {
+        "num_tables": 6,
+        "num_columns": 40,
+        "num_foreign_keys": 6
+    },
+    "school_finance": {
+        "num_tables": 3,
+        "num_columns": 19,
+        "num_foreign_keys": 2
+    },
+    "roller_coaster": {
+        "num_tables": 2,
+        "num_columns": 14,
+        "num_foreign_keys": 1
+    },
+    "journal_committee": {
+        "num_tables": 3,
+        "num_columns": 10,
+        "num_foreign_keys": 2
+    },
+    "flight_4": {
+        "num_tables": 3,
+        "num_columns": 24,
+        "num_foreign_keys": 3
+    },
+    "club_1": {
+        "num_tables": 3,
+        "num_columns": 15,
+        "num_foreign_keys": 2
+    },
+    "epinions_1": {
+        "num_tables": 4,
+        "num_columns": 12,
+        "num_foreign_keys": 4
+    },
+    "decoration_competition": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "architecture": {
+        "num_tables": 3,
+        "num_columns": 17,
+        "num_foreign_keys": 2
+    },
+    "train_station": {
+        "num_tables": 3,
+        "num_columns": 14,
+        "num_foreign_keys": 2
+    },
+    "allergy_1": {
+        "num_tables": 3,
+        "num_columns": 12,
+        "num_foreign_keys": 2
+    },
+    "election_representative": {
+        "num_tables": 2,
+        "num_columns": 12,
+        "num_foreign_keys": 1
+    },
+    "city_record": {
+        "num_tables": 4,
+        "num_columns": 27,
+        "num_foreign_keys": 3
+    },
+    "customers_campaigns_ecommerce": {
+        "num_tables": 8,
+        "num_columns": 42,
+        "num_foreign_keys": 7
+    },
+    "flight_2": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 2
+    },
+    "poker_player": {
+        "num_tables": 2,
+        "num_columns": 11,
+        "num_foreign_keys": 1
+    },
+    "customer_complaints": {
+        "num_tables": 4,
+        "num_columns": 31,
+        "num_foreign_keys": 3
+    },
+    "company_1": {
+        "num_tables": 6,
+        "num_columns": 28,
+        "num_foreign_keys": 0
+    },
+    "concert_singer": {
+        "num_tables": 4,
+        "num_columns": 21,
+        "num_foreign_keys": 3
+    },
+    "cre_Docs_and_Epenses": {
+        "num_tables": 7,
+        "num_columns": 22,
+        "num_foreign_keys": 6
+    },
+    "insurance_and_eClaims": {
+        "num_tables": 7,
+        "num_columns": 30,
+        "num_foreign_keys": 6
+    },
+    "insurance_policies": {
+        "num_tables": 5,
+        "num_columns": 25,
+        "num_foreign_keys": 4
+    },
+    "county_public_safety": {
+        "num_tables": 2,
+        "num_columns": 18,
+        "num_foreign_keys": 1
+    },
+    "baseball_1": {
+        "num_tables": 26,
+        "num_columns": 352,
+        "num_foreign_keys": 20
+    },
+    "imdb": {
+        "num_tables": 16,
+        "num_columns": 67,
+        "num_foreign_keys": 12
+    },
+    "music_2": {
+        "num_tables": 7,
+        "num_columns": 22,
+        "num_foreign_keys": 8
+    },
+    "network_1": {
+        "num_tables": 3,
+        "num_columns": 7,
+        "num_foreign_keys": 4
+    },
+    "climbing": {
+        "num_tables": 2,
+        "num_columns": 12,
+        "num_foreign_keys": 1
+    },
+    "swimming": {
+        "num_tables": 4,
+        "num_columns": 25,
+        "num_foreign_keys": 3
+    },
+    "customers_and_addresses": {
+        "num_tables": 7,
+        "num_columns": 32,
+        "num_foreign_keys": 6
+    },
+    "tracking_share_transactions": {
+        "num_tables": 7,
+        "num_columns": 20,
+        "num_foreign_keys": 7
+    },
+    "game_1": {
+        "num_tables": 4,
+        "num_columns": 19,
+        "num_foreign_keys": 3
+    },
+    "cre_Drama_Workshop_Groups": {
+        "num_tables": 18,
+        "num_columns": 99,
+        "num_foreign_keys": 25
+    },
+    "election": {
+        "num_tables": 3,
+        "num_columns": 19,
+        "num_foreign_keys": 2
+    },
+    "book_2": {
+        "num_tables": 2,
+        "num_columns": 9,
+        "num_foreign_keys": 1
+    },
+    "music_4": {
+        "num_tables": 3,
+        "num_columns": 17,
+        "num_foreign_keys": 2
+    },
+    "small_bank_1": {
+        "num_tables": 3,
+        "num_columns": 6,
+        "num_foreign_keys": 2
+    },
+    "local_govt_in_alabama": {
+        "num_tables": 4,
+        "num_columns": 10,
+        "num_foreign_keys": 3
+    },
+    "device": {
+        "num_tables": 3,
+        "num_columns": 14,
+        "num_foreign_keys": 2
+    },
+    "sports_competition": {
+        "num_tables": 5,
+        "num_columns": 26,
+        "num_foreign_keys": 5
+    },
+    "workshop_paper": {
+        "num_tables": 3,
+        "num_columns": 11,
+        "num_foreign_keys": 2
+    },
+    "tracking_orders": {
+        "num_tables": 7,
+        "num_columns": 27,
+        "num_foreign_keys": 7
+    },
+    "school_bus": {
+        "num_tables": 3,
+        "num_columns": 14,
+        "num_foreign_keys": 2
+    },
+    "protein_institute": {
+        "num_tables": 3,
+        "num_columns": 22,
+        "num_foreign_keys": 2
+    },
+    "activity_1": {
+        "num_tables": 5,
+        "num_columns": 22,
+        "num_foreign_keys": 4
+    },
+    "phone_market": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 2
+    },
+    "entrepreneur": {
+        "num_tables": 2,
+        "num_columns": 10,
+        "num_foreign_keys": 1
+    },
+    "apartment_rentals": {
+        "num_tables": 6,
+        "num_columns": 31,
+        "num_foreign_keys": 6
+    },
+    "medicine_enzyme_interaction": {
+        "num_tables": 3,
+        "num_columns": 14,
+        "num_foreign_keys": 2
+    },
+    "gymnast": {
+        "num_tables": 2,
+        "num_columns": 13,
+        "num_foreign_keys": 1
+    },
+    "student_1": {
+        "num_tables": 2,
+        "num_columns": 7,
+        "num_foreign_keys": 0
+    },
+    "store_1": {
+        "num_tables": 11,
+        "num_columns": 64,
+        "num_foreign_keys": 11
+    },
+    "employee_hire_evaluation": {
+        "num_tables": 4,
+        "num_columns": 17,
+        "num_foreign_keys": 3
+    },
+    "college_1": {
+        "num_tables": 7,
+        "num_columns": 43,
+        "num_foreign_keys": 9
+    },
+    "local_govt_mdm": {
+        "num_tables": 8,
+        "num_columns": 17,
+        "num_foreign_keys": 7
+    },
+    "company_office": {
+        "num_tables": 3,
+        "num_columns": 17,
+        "num_foreign_keys": 2
+    },
+    "battle_death": {
+        "num_tables": 3,
+        "num_columns": 18,
+        "num_foreign_keys": 2
+    },
+    "dorm_1": {
+        "num_tables": 5,
+        "num_columns": 19,
+        "num_foreign_keys": 4
+    },
+    "products_for_hire": {
+        "num_tables": 7,
+        "num_columns": 45,
+        "num_foreign_keys": 8
+    },
+    "coffee_shop": {
+        "num_tables": 4,
+        "num_columns": 19,
+        "num_foreign_keys": 2
+    },
+    "singer": {
+        "num_tables": 2,
+        "num_columns": 10,
+        "num_foreign_keys": 1
+    },
+    "chinook_1": {
+        "num_tables": 11,
+        "num_columns": 64,
+        "num_foreign_keys": 11
+    },
+    "behavior_monitoring": {
+        "num_tables": 11,
+        "num_columns": 64,
+        "num_foreign_keys": 13
+    },
+    "world_1": {
+        "num_tables": 3,
+        "num_columns": 24,
+        "num_foreign_keys": 2
+    },
+    "university_basketball": {
+        "num_tables": 2,
+        "num_columns": 20,
+        "num_foreign_keys": 1
+    },
+    "mountain_photos": {
+        "num_tables": 3,
+        "num_columns": 16,
+        "num_foreign_keys": 2
+    },
+    "scholar": {
+        "num_tables": 10,
+        "num_columns": 25,
+        "num_foreign_keys": 8
+    },
+    "product_catalog": {
+        "num_tables": 5,
+        "num_columns": 29,
+        "num_foreign_keys": 4
+    },
+    "real_estate_properties": {
+        "num_tables": 5,
+        "num_columns": 37,
+        "num_foreign_keys": 4
+    },
+    "student_transcripts_tracking": {
+        "num_tables": 11,
+        "num_columns": 56,
+        "num_foreign_keys": 11
+    },
+    "film_rank": {
+        "num_tables": 3,
+        "num_columns": 15,
+        "num_foreign_keys": 2
+    },
+    "theme_gallery": {
+        "num_tables": 3,
+        "num_columns": 13,
+        "num_foreign_keys": 2
+    },
+    "e_government": {
+        "num_tables": 10,
+        "num_columns": 50,
+        "num_foreign_keys": 9
+    },
+    "insurance_fnol": {
+        "num_tables": 7,
+        "num_columns": 22,
+        "num_foreign_keys": 7
+    },
+    "restaurant_1": {
+        "num_tables": 5,
+        "num_columns": 21,
+        "num_foreign_keys": 4
+    },
+    "inn_1": {
+        "num_tables": 2,
+        "num_columns": 16,
+        "num_foreign_keys": 1
+    },
+    "tracking_software_problems": {
+        "num_tables": 6,
+        "num_columns": 28,
+        "num_foreign_keys": 7
+    },
+    "riding_club": {
+        "num_tables": 5,
+        "num_columns": 27,
+        "num_foreign_keys": 4
+    },
+    "ship_mission": {
+        "num_tables": 2,
+        "num_columns": 12,
+        "num_foreign_keys": 1
+    },
+    "student_assessment": {
+        "num_tables": 9,
+        "num_columns": 38,
+        "num_foreign_keys": 9
+    },
+    "assets_maintenance": {
+        "num_tables": 14,
+        "num_columns": 64,
+        "num_foreign_keys": 18
+    },
+    "twitter_1": {
+        "num_tables": 3,
+        "num_columns": 11,
+        "num_foreign_keys": 3
+    },
+    "body_builder": {
+        "num_tables": 2,
+        "num_columns": 11,
+        "num_foreign_keys": 1
+    },
+    "school_player": {
+        "num_tables": 4,
+        "num_columns": 26,
+        "num_foreign_keys": 3
+    }
+}
