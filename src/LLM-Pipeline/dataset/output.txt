@@ -1,0 +1,18 @@
+You are a text-to-SQL assistant. Generate a correct SQL query that adheres to the given assumptions, using only the question and database schema, and nothing else.
+
+Schema:
+create table stadium (stadium_id integer, location text, name text, capacity integer, highest integer, lowest integer, average integer, primary key (stadium_id));
+create table singer (singer_id integer, name text, country text, song_name text, song_release_year text, age integer, is_male others, primary key (singer_id));
+create table concert (concert_id integer, concert_name text, theme text, stadium_id text, year text, primary key (concert_id));
+create table singer_in_concert (concert_id integer, singer_id text, primary key (concert_id));
+foreign key (concert.stadium_id) references stadium (stadium_id);
+foreign key (singer_in_concert.singer_id) references singer (singer_id);
+foreign key (singer_in_concert.concert_id) references concert (concert_id);
+
+# Assumptions for generating the SQL query:
+# 1. Only table names are aliased
+# 2. LIMIT value is always a numerical type
+# 3. Only one of INTERSECT / UNION / EXCEPT can be used
+
+Question: How many singers do we have?
+SQL Query:
