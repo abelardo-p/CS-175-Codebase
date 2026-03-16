@@ -1,0 +1,71 @@
+To effectively assess model performance across various query types, we categorize SQL queries 
+into four distinct hardness levels: Easy, Medium, Hard, and Extra Hard. 
+These levels are determined by the presence and complexity of specific SQL components and conditions.
+
+First, we define our criteria:
+
+    SQL Components Set 1 (Basic Operations): WHERE, GROUP BY, ORDER BY, LIMIT, JOIN, OR, LIKE, HAVING
+    
+    SQL Components Set 2 (Complex Operations): EXCEPT, UNION, INTERSECT, NESTED (referring to nested queries or subqueries)
+    
+    Other Complexity Factors:
+        - aggregation(AGG) function > 1
+        - selected (SELECT) column > 1
+        - where (WHERE) condition > 1
+        - num of group by (GROUP BY) clauses > 1
+
+We then define the hardness levels as follows:
+
+1. EASY: 
+
+    All of the following conditions must be met
+
+    - It contains zero or exactly one keyword from SQL Components Set 1.
+
+    - It satisfies none of the Other Complexity Factors.
+
+    - It contains no keywords from SQL Components Set 2.
+
+2. MEDIUM:
+
+    If either of the following conditions is met:
+
+        It satisfies no more than two of the Other Complexity Factors, AND
+
+        It contains no more than one keyword from SQL Components Set 1, AND
+
+        It contains no keywords from SQL Components Set 2.
+
+        OR
+
+        It contains exactly two keywords from SQL Components Set 1, AND
+
+        It satisfies fewer than two of the Other Complexity Factors, AND
+
+        It contains no keywords from SQL Components Set 2.
+
+3. HARD:
+
+    If any of the following conditions are met:
+
+        It satisfies more than two of the Other Complexity Factors, AND
+
+        It contains no more than two keywords from SQL Components Set 1, AND
+
+        It contains no keywords from SQL Components Set 2.
+
+        OR
+
+        It contains more than two but no more than three keywords from SQL Components Set 1 (i.e., 3 keywords), AND
+
+        It satisfies no more than two of the Other Complexity Factors, AND
+
+        It contains no keywords from SQL Components Set 2.
+
+        OR
+
+        It contains no more than one keyword from SQL Components Set 1, AND
+
+        It satisfies none of the Other Complexity Factors, AND
+
+        It contains exactly one keyword from SQL Components Set 2
